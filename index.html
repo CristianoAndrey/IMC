@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site do IMC</h1>
+    </header>
+    <div class="IMC">
+        <h3>O que é IMC</h3>
+        <p>IMC,(indice de massa corporal) é um cálculo universal adotado pela OMS (Organização <br> Mundial da Saúde) para classificar padrões de saúde relacionados ao peso, como desnutrição e obesidade.</p>
+    </div>
+    
+    <form>
+        <h2>Calculadora de IMC</h2>
+        <label for="peso">Peso:</label>
+        <input type="text" placeholder="75.5" id="peso" required>
+        <label for="altura">Altura:</label>
+        <input type="text" placeholder="1.75" id="altura" required>
+        <input type="button" value="Calcular"  id="botaoCalcular" onclick="IMCCalcular()">
+        <br>
+        <label id="IMCCalculado"> Seu IMC:</label>
+    </form>
+    <footer>Copyright © Carlos Eduardo - 2021 </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>

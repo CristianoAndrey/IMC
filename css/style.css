@@ -1,0 +1,39 @@
+
+body{
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgba(240, 248, 255, 0.459);
+}
+header{
+    background-color: black;
+    color: white;
+}
+h3{
+    padding: 50px;
+    border: 50px;
+}
+form{
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 700px;
+    height: 270px;
+    margin:auto;
+    border-radius: 2%;
+}
+input{
+    border-radius: 5px;
+}
+input#botaoCalcular{
+    background-color: rgba(13, 87, 172, 0.849);
+    margin-left: 20px;
+    color: white;
+    padding: 7px 20px 10px 20px;
+}
+footer{
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    color: white;
+}
